@@ -1,2 +1,2 @@
 config SHIELD_MYFIRSTKB
-    def_bool $(shields_list_contains,MyFirstKB)
+    def_bool $(shields_list_contains,MYFIRSTKB)

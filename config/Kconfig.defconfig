@@ -1,6 +1,6 @@
 if SHIELD_MYFIRSTKB
 
 config ZMK_KEYBOARD_NAME
-    Default "MyFirstKB"
+    Default "MYFIRSTKB"
 
 endif
