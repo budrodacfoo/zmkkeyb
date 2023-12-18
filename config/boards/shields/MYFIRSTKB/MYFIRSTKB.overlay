@@ -22,9 +22,9 @@
                 >;
         };
 
-        kscan: kscan {
+        default_kscan: kscan {
             compatible = "zmk,kscan-gpio-matrix";
-            label = "kscan";
+            label = "default_kscan";
             diode-direction = "col2row";
 
             col-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>,
