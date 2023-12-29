@@ -9,20 +9,20 @@
         default_layer {
             bindings = <
                 &kp KP_NUMLOCK   &kp KP_DIVIDE   &kp KP_MINUS    &kp ESCAPE       &mo 1
-                &kp KP_NUMBER_1  &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kp KP_MULTIPLY                 
-                &kp KP_NUMBER_4  &kp KP_NUMBER_5 &kp KP_NUMBER_6 &kp KP_PLUS                 
-                &kp KP_NUMBER_7  &kp KP_NUMBER_8 &kp KP_NUMBER_9 &kp KP_EQUAL                 
-                &kp KP_DOT       &kp KP_NUMBER_0 &kp KP_ENTER     
+                &kp KP_NUMBER_1  &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kp KP_MULTIPLY          
+                &kp KP_NUMBER_4  &kp KP_NUMBER_5 &kp KP_NUMBER_6 &kp KP_PLUS
+                &kp KP_NUMBER_7  &kp KP_NUMBER_8 &kp KP_NUMBER_9 &kp KP_EQUAL
+                &kp KP_DOT       &kp KP_NUMBER_0 &kp KP_ENTER
             >;
         };
 
         bt_layer {
             bindings = <
-                &bootloader      &bt BT_CLR       &kp F12          &kp F11          
-                &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &kp F13                             
-                &kp F24          &kp F23          &kp F22          &kp F21          
-                &kp F20          &kp F19          &kp F18          &kp F17                      
-                &kp F16          &kp F15          &kp F14          
+                &bootloader      &bt BT_CLR       &kp F12          &kp F11
+                &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &kp F13
+                &kp F24          &kp F23          &kp F22          &kp F21
+                &kp F20          &kp F19          &kp F18          &kp F17
+                &kp F16          &kp F15          &kp F14
             >;
         };
     };
