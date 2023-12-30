@@ -18,11 +18,11 @@
 
         bt_layer {
             bindings = <
-                &bootloader      &bt BT_CLR       &kp F12          &kp F11        &none
-                &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &kp F13
-                &bt BT_SEL 4     &bt BT_SEL 5     &kp F22          &kp F21
-                &kp F20          &kp F19          &kp F18          &kp F17
-                &kp F16          &kp F15          &kp F14
+                &bootloader      &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1      &none
+                &kp F12          &kp F13          &kp F14          &kp F15
+                &kp F16          &kp F17          &kp F18          &kp F19
+                &kp F20          &kp F21          &kp F22          &kp F23
+                &kp F24          &kp ESCAPE       &kp KP_ENTER
             >;
         };
     };
